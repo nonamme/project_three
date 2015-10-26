@@ -1,0 +1,66 @@
+@import url("menu.css");
+
+html body {
+	background-color: #000;
+}
+
+footer {
+	padding: 1em 0;
+	height: 50px;
+	background-color: #3F3F3F;
+	color: #999999;
+}
+
+#top-page {
+
+}
+
+	#top-page figure {
+		width: 200px;
+		height: 100px;
+		color: #fff;
+		font-size: 16pt;
+		background-color: #009999;
+		border-bottom-right-radius: 0.2em;
+		border-bottom-left-radius: 0.2em;
+	}
+
+		#top-page figure figcaption {
+			font-size: 8pt;
+		}
+
+#top-page {
+	height: 120px;
+}
+
+#gallery {
+	padding: 0;
+	height: 400px;
+}
+
+#gallery figure {
+	display: inline;
+	width: 6em;
+	height: 3em;
+}
+
+	#gallery figure img {
+		position: relative;
+		width: 100%;
+		height: 28em;
+	}
+	
+	#gallery figure figcaption {
+		position: absolute;
+		bottom: 10px;
+		width: 100%;
+		text-align: center;
+		height: 5em;
+	}
+		#gallery figure figcaption p {
+			font-size: 24pt;
+			padding: 0;
+			color: #f0f0f0;
+			width: 100%;
+			background-color: rgba( 100, 100, 100, 0.5);
+		}

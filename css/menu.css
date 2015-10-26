@@ -1,0 +1,40 @@
+nav {
+	padding: .8em 0;	
+	margin: 0;
+}
+
+#menu-container {
+	padding: 0;
+	margin: 0;
+}
+
+#menu-caonteiner nav {
+
+}
+	#menu-container nav ul {
+		display: inline;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+		#menu-container nav ul li {
+			display: inline;
+			margin: 0 .7em;
+			border-radius: 0.2em;
+			background-color: #fff;
+		}
+			#menu-container nav ul li a {
+				padding: .8em 2em;
+				background-color: #3F3F3F;
+				text-decoration: none;
+				color: #999999;
+				border-radius: 0.2em;
+			}
+
+			#menu-container nav ul li a:hover,
+			#menu-container nav ul li a:focus {
+				background-color: #009999;
+				color: #ffffff;
+			}
+
+
